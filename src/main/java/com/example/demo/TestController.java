@@ -17,7 +17,7 @@ public class TestController {
      * @param name
      * @return
      */
-    @GetMapping("//callRemoteJNDI")
+    @GetMapping("/callRemoteJNDI")
     public String testCallRemoteJNDIServer(@RequestParam("name") String name) {
         logger.info("coming");
         logger.error(name);
